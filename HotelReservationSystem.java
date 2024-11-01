@@ -74,11 +74,11 @@ public class HotelReservationSystem {
         System.out.println(" ");
         System.out.println("===Tambahkan Fasilitas===");
 
-        System.out.print("Sarapan (y/n): ");
+        System.out.print("Sarapan + Rp.20000 (y/n): ");
         String breakfast = scanner.nextLine();
-        System.out.print("WiFi (y/n): ");
+        System.out.print("WiFi + Rp.10000 (y/n): ");
         String wifi = scanner.nextLine();
-        System.out.print("Akses Gym (y/n): ");
+        System.out.print("Akses Gym + Rp.15000 (y/n): ");
         String gymAccess = scanner.nextLine();
 
         AdditionalFacility facility = new AdditionalFacility(breakfast, wifi, gymAccess);
