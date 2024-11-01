@@ -20,4 +20,8 @@ public class Room {
     public String getRoomType() {
         return roomType;
     }
+
+    public String getDescription() {
+        return "Room Type: " + roomType + ", Room Number: " + roomNumber + ", Harga per malam: Rp " + price;
+    }
 }
