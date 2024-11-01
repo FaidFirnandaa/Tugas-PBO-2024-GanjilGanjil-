@@ -21,7 +21,7 @@ public class Reservation {
         System.out.println("Guest: " + guest.getName());
         System.out.println("Phone: " + guest.getPhone());
         System.out.println("Email: " + guest.getEmail());
-        System.out.println("Room Description: " + room.getDescription()); // Menggunakan method overriding
+        System.out.println("Room Description: " + room.getDescription()); 
         System.out.println("Nights: " + nights);
         System.out.printf("Total Cost: Rp %.2f%n", calculateTotalCost());
     }
