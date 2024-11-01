@@ -17,12 +17,11 @@ public class Reservation {
 
     public void showReservationDetails() {
         System.out.println(" ");
-        System.out.println("===Detail Reservasi===:");
+        System.out.println("===Detail Reservasi===");
         System.out.println("Guest: " + guest.getName());
-        System.out.println("Phone: "+ guest.getPhone());
-        System.out.println("Email: "+ guest.getEmail());
-        System.out.println("Room Type: " + room.getRoomType());
-        System.out.println("Room Number: " + room.getRoomNumber());
+        System.out.println("Phone: " + guest.getPhone());
+        System.out.println("Email: " + guest.getEmail());
+        System.out.println("Room Description: " + room.getDescription()); // Menggunakan method overriding
         System.out.println("Nights: " + nights);
         System.out.printf("Total Cost: Rp %.2f%n", calculateTotalCost());
     }
